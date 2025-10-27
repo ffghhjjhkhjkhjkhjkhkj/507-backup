@@ -1,0 +1,11 @@
+using System.Diagnostics;
+using System.IO.Compression;
+Console.WriteLine("Добро пожаловать в 507-BACKUP!");
+Console.WriteLine("Какую папку нужна забекапить?");
+string folder = Console.ReadLine();
+Console.WriteLine("Отлично! приступаем к бекапу...");
+string timestamp = DateTime.Now.ToString("dd.MM.yyyy");
+Process.Start("cmd", "/c mkdir backup");
+System.Threading.Thread.Sleep(60);
+ZipFile.CreateFromDirectory(folder, Path.Combine("backup", $@"Backup_{timestamp}.zip"), CompressionLevel.Optimal, false);
+Console.WriteLine("Бекап завершен!");
