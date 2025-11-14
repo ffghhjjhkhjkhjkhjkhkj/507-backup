@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using System.IO.Compression;
+# ТЕСТ
 Console.WriteLine("Добро пожаловать в 507-BACKUP!");
 Console.WriteLine("Какую папку нужна забекапить?");
 string folder = Console.ReadLine();
