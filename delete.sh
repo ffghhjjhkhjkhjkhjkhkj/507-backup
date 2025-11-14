@@ -1,7 +1,7 @@
 echo "Добро пожаловать в мастер удаления 507-Backup!"
 echo "Удаляю!"
 
-sudo rm /usr/local/build/507-backup
+sudo rm /usr/local/bin/507-backup
 
 echo "Удалено!"
 echo "Спасибо что пользовались нашим инструментом! надеюсь еще увидимся!"
