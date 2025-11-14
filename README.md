@@ -13,3 +13,9 @@
 wget "https://raw.githubusercontent.com/ffghhjjhkhjkhjkhjkhkj/507-backup/refs/heads/main/install.sh" -O - -q | bash
 
 ```
+
+Для удаления:
+
+```
+wget "https://raw.githubusercontent.com/ffghhjjhkhjkhjkhjkhkj/507-backup/refs/heads/main/delete.sh" -O - -q | bash
+```
