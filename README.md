@@ -10,6 +10,6 @@
 Доступна на Linux!
 
 ```
-wget "https://raw.githubusercontent.com/ffghhjjhkhjkhjkhjkhkj/507-backup/refs/heads/main/install.sh" -O | bash
+wget "https://raw.githubusercontent.com/ffghhjjhkhjkhjkhjkhkj/507-backup/refs/heads/main/install.sh" -O install_507_backup.sh | bash && rm install_507_backup.sh
 
 ```
